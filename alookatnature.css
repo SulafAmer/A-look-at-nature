@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(12, 118, 42, 0.23);
+}
+
+nav{
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    background-color:rgba(12, 118, 42, 0.478);
+    padding:70px;
+    display:block;
+}
+a{
+   background-color: rgb(34, 90, 2);
+   color: aliceblue;
+   text-decoration: none;
+   border-radius: 15px;
+   padding: 10px;
+}
+#headone{
+    font-size: 70px;
+    text-align: center;
+}
+#videoone{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+#paraone{
+    font-size: 50px;
+}
+#imgone{
+    height: 600px;
+    width: 1200px;
+    margin-left: 20%;
+}
+#paratwo{
+    font-size: 50px;
+}
+#parathree{
+    font-size: 50px;
+}
+table{
+    font-size:xx-large;
+}
+li{
+    font-size: 35px;
+}
+#parafour{
+    font-size: 50px;
+}
+#parafive{
+    font-size: 50px;
+}

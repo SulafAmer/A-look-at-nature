@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--first interact-->
+<html>
+    <head>
+<title>Signup</title>
+    </head>
+    <body>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+            <a href="contactus.html">Contact us</a>
+        </nav>
+        <fieldset>
+            <legend>Sign up</legend>
+  <form>
+<label for="username">User name:</label>
+<input type="text" id="username" required>
+<br>
+<label for="password">Password:</label>
+<input type="password" id="password" required>
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" required>
+<br>
+<label for="address">Address:</label>
+<input type="text" id="address">
+<br>
+<label for="date">Date of birth:</label>
+<input type="date" id="date">
+<br>
+<label for="time">Free time:</label>
+<input type="time" id="time">
+<br>
+<label for="color">Favourite color:</label>
+<input type="color" id="color">
+<br>
+<label for="search">Gender:</label>
+<input type="search" id="search" list="list">
+<datalist id="list">
+    <option>Male</option>
+    <option>Female</option>
+</datalist>
+<br>
+<input type="submit" >
+<br>
+<input type="reset">
+<br>
+
+  </form>
+</fieldset>
+<!--Stylesheet-->
+<style>
+    body{
+    background-color: rgba(12, 118, 42, 0.23);
+}
+    nav{
+    width: 100%;
+    font-size: 50px;
+    text-align: left;
+    background-color:rgba(12, 118, 42, 0.478);
+    padding:70px;
+    display:block;
+}
+a{
+   background-color: rgb(34, 90, 2);
+   color: aliceblue;
+   text-decoration: none;
+   border-radius: 15px;
+   padding: 10px;
+}
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+}
+form{
+    font-size: 30px;
+}
+</style>
+    </body>
+</html>
